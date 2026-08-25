@@ -1,0 +1,9 @@
+{
+  "mu": 0.21992137043371354,
+  "home_advantage": 0.28457797249050887,
+  "ridge_alpha": 8.0,
+  "half_life_days": 730,
+  "friendly_weight": 0.5,
+  "implied_avg_goals_neutral": 1.2459787559663966,
+  "implied_avg_goals_home_with_advantage": 1.6561561465688488
+}

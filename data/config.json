@@ -1,0 +1,10 @@
+{
+  "simulation": {
+    "total": 100000,
+    "saved": 300
+  },
+
+  "elo": {
+    "home_advantage": 70
+  }
+}

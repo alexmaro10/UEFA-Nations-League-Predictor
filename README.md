@@ -1,34 +1,34 @@
 # UEFA Nations League Predictor
 
-Simulador de la UEFA Nations League basado en el método Monte Carlo: ejecuta miles de repeticiones del torneo completo (fase de grupos, playoffs cruzados, cuartos de final y Final Four) para estimar la probabilidad real de cada selección de ascender, descender o levantar el trofeo.
+A Monte Carlo simulator for the UEFA Nations League: it runs thousands of full-tournament simulations (group stage, cross-league playoffs, quarter-finals and Final Four) to estimate the real probability of each national team getting promoted, relegated, or lifting the trophy.
 
 ## 🚀 Demo / Screenshot
 
-> Añade aquí un enlace a la demo en vivo o una captura de pantalla de la pantalla principal y del detalle de una simulación.
+> Add a link to the live demo or a screenshot of the main screen and a simulation detail view here.
 
-## 📋 Tabla de contenidos
+## 📋 Table of contents
 
-- [Características](#características)
-- [Tecnologías](#tecnologías)
-- [Instalación](#instalación)
-- [Configuración](#configuración)
-- [Uso](#uso)
-- [Estructura del proyecto](#estructura-del-proyecto)
+- [Features](#features)
+- [Tech stack](#tech-stack)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Project structure](#project-structure)
 - [Tests](#tests)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
-- [Autor](#autor)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
-## ✨ Características
+## ✨ Features
 
-- **Simulación Monte Carlo del torneo completo**: fase de grupos, playoffs de ascenso/descenso entre ligas (A/B, B/C, C/D), cuartos de final a ida y vuelta, y Final Four a partido único.
-- **Modelo de goles esperados calibrado con datos reales**: ratings de ataque y defensa por selección, ajustados mediante una regresión de Poisson (estilo Dixon-Coles/Maher) sobre ~4.500 partidos internacionales de los últimos 4 años, en vez de un único rating genérico.
-- **Estadísticas globales por liga**: probabilidad de alcanzar cuartos, semifinal, final y título (Liga A), o de ascender/descender (Ligas B, C y D).
-- **Probabilidad por posición de grupo**: desglosada por cada grupo real de la competición (A1–A4, B1–B4, C1–C4, D1–D2).
-- **Simulaciones individuales guardadas**: selección y consulta de partidas concretas, con clasificación por grupo, resultados jornada a jornada y cuadro eliminatorio completo, marcando el equipo ganador de cada eliminatoria.
-- **Interfaz con identidad visual propia**: banderas por selección, paginación de simulaciones y diseño responsive.
+- **Full-tournament Monte Carlo simulation**: group stage, promotion/relegation playoffs between leagues (A/B, B/C, C/D), two-legged quarter-finals, and a single-match Final Four.
+- **Expected-goals model calibrated with real data**: per-team attack and defense ratings, fitted with a Poisson regression (Dixon-Coles/Maher style) over ~4,500 international matches from the last 4 years, instead of a single generic rating.
+- **Global statistics per league**: probability of reaching the quarter-finals, semi-final, final and title (League A), or of being promoted/relegated (Leagues B, C and D).
+- **Probability by group position**: broken down by each real group in the competition (A1–A4, B1–B4, C1–C4, D1–D2).
+- **Saved individual simulations**: browse and open specific runs, with group standings, matchday-by-matchday results, and the full knockout bracket, marking the winner of each tie.
+- **Custom-designed interface**: national flags, paginated simulation browsing, and a responsive layout.
 
-## 🛠️ Tecnologías
+## 🛠️ Tech stack
 
 **Backend**
 - Python 3
@@ -40,13 +40,13 @@ Simulador de la UEFA Nations League basado en el método Monte Carlo: ejecuta mi
 - Tailwind CSS v4
 - flag-icons
 
-**Preparación de datos** (`data_prep/`)
-- pandas, NumPy, SciPy — ajuste de la regresión de Poisson para los ratings de ataque/defensa
+**Data preparation** (`data_prep/`)
+- pandas, NumPy, SciPy — fits the Poisson regression behind the attack/defense ratings
 
-## 📦 Instalación
+## 📦 Installation
 
 ```bash
-git clone https://github.com/usuario/nations-league-ia.git
+git clone https://github.com/username/nations-league-ia.git
 cd nations-league-ia
 ```
 
@@ -56,73 +56,73 @@ cd nations-league-ia
 pip install fastapi uvicorn tqdm
 ```
 
-**Frontend** (en otra terminal):
+**Frontend** (in another terminal):
 
 ```bash
 cd frontend
 npm install
 ```
 
-## ⚙️ Configuración
+## ⚙️ Configuration
 
-Este proyecto no requiere variables de entorno ni claves de API. Los ajustes relevantes están directamente en el código:
+This project doesn't require any environment variables or API keys. The relevant settings live directly in the code:
 
-- `main.py` → `N_SIMULATIONS` y `N_SAVED_SIMULATIONS`: número total de simulaciones a ejecutar y cuántas se guardan con detalle de partidos.
-- `main.py` → configuración de `CORSMiddleware`: origen permitido para el frontend en desarrollo (`http://localhost:5173` por defecto).
+- `main.py` → `N_SIMULATIONS` and `N_SAVED_SIMULATIONS`: total number of simulations to run, and how many are saved with full match detail.
+- `main.py` → `CORSMiddleware` configuration: allowed origin for the frontend in development (`http://localhost:5173` by default).
 
-## 💻 Uso
+## 💻 Usage
 
-**1. Arranca el backend** desde la raíz del proyecto:
+**1. Start the backend** from the project root:
 
 ```bash
 python -m uvicorn main:app --reload
 ```
 
-Disponible en `http://127.0.0.1:8000` (documentación interactiva en `/docs`).
+Available at `http://127.0.0.1:8000` (interactive docs at `/docs`).
 
-**2. Arranca el frontend** desde `frontend/`:
+**2. Start the frontend** from `frontend/`:
 
 ```bash
 npm run dev
 ```
 
-Disponible en `http://localhost:5173`.
+Available at `http://localhost:5173`.
 
-**3. Desde el navegador**, pulsa **Simular torneo**. Al terminar, verás las estadísticas globales por liga, la probabilidad por posición de grupo, y una selección de simulaciones guardadas que puedes abrir para ver su detalle completo (grupos, resultados y eliminatorias).
+**3. From the browser**, click **Simular torneo**. Once it finishes, you'll see the global statistics per league, the probability by group position, and a list of saved simulations you can open to see their full detail (groups, results, and knockout stage).
 
-### Endpoints principales
+### Main endpoints
 
-| Método | Ruta | Descripción |
+| Method | Route | Description |
 |---|---|---|
-| `POST` | `/api/simulate` | Ejecuta una nueva tanda de simulaciones |
-| `GET` | `/api/results` | Estadísticas globales y resumen de simulaciones guardadas |
-| `GET` | `/api/simulations/{id}` | Clasificación y partidos completos de una simulación concreta |
-| `GET` | `/api/teams` | Listado de selecciones (código, nombre, liga, grupo) |
+| `POST` | `/api/simulate` | Runs a new batch of simulations |
+| `GET` | `/api/results` | Global statistics and summary of saved simulations |
+| `GET` | `/api/simulations/{id}` | Standings and full match list for a specific simulation |
+| `GET` | `/api/teams` | List of national teams (code, name, league, group) |
 
-## 📁 Estructura del proyecto
+## 📁 Project structure
 
 ```
 nations-league-ia/
-├── main.py                  # Punto de entrada FastAPI y orquestación de la simulación
-├── api/                     # Endpoints REST
-├── data/                    # elo.csv, config.json, fixtures.json y resultados generados
-├── data_prep/                # Ajuste de ratings de ataque/defensa a partir de datos históricos
+├── main.py                  # FastAPI entry point and simulation orchestration
+├── api/                     # REST endpoints
+├── data/                    # elo.csv, config.json, fixtures.json and generated results
+├── data_prep/                # Fits attack/defense ratings from historical match data
 │   ├── build_attack_defense.py
 │   ├── team_mapping.py
 │   └── output/
-├── engine/                  # Motor de simulación
-│   ├── builders/             # Construcción de grupos, ligas y competición
-│   ├── knockout/             # Cuartos, playoffs y Final Four
-│   ├── loaders/               # Carga de equipos, calendario y configuración
-│   ├── models/                 # Modelo de goles esperados
-│   ├── probability/           # Muestreo Poisson
-│   ├── rankings/               # Clasificaciones cruzadas entre grupos
-│   ├── simulators/             # Simulación de partidos, grupos, eliminatorias
-│   └── standings/              # Cálculo de clasificaciones
-├── models/                  # Entidades del dominio (Team, Match, Tie, FinalFour...)
-├── output/                  # Persistencia de resultados en JSON
+├── engine/                  # Simulation engine
+│   ├── builders/             # Builds groups, leagues and the competition
+│   ├── knockout/             # Quarter-finals, playoffs and Final Four
+│   ├── loaders/               # Loads teams, fixtures and configuration
+│   ├── models/                 # Expected-goals model
+│   ├── probability/           # Poisson sampling
+│   ├── rankings/               # Cross-group rankings
+│   ├── simulators/             # Match, group and knockout simulation
+│   └── standings/              # Standings calculation
+├── models/                  # Domain entities (Team, Match, Tie, FinalFour...)
+├── output/                  # JSON result persistence
 ├── utils/
-└── frontend/                # Aplicación React
+└── frontend/                # React application
     └── src/
         ├── api/
         ├── components/
@@ -131,22 +131,18 @@ nations-league-ia/
 
 ## 🧪 Tests
 
-Actualmente el proyecto no cuenta con tests automatizados. Contribuciones añadiendo cobertura (especialmente sobre el motor de simulación y el cálculo de clasificaciones/desempates) son bienvenidas.
+This project currently has no automated tests. Contributions adding coverage (especially around the simulation engine and standings/tiebreak logic) are welcome.
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-Las contribuciones son bienvenidas. Por favor:
+Contributions are welcome. Please:
 
-1. Haz fork del proyecto
-2. Crea tu rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
+1. Fork the project
+2. Create your branch (`git checkout -b feature/new-feature`)
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-## 📄 Licencia
+## 👤 Author
 
-Distribuido bajo licencia [MIT/otra]. Ver `LICENSE` para más información.
-
-## 👤 Autor
-
-Tu nombre - [@tu_usuario](https://github.com/tu_usuario)
+Your name - [@alexmaro10](https://github.com/alexmaro10)

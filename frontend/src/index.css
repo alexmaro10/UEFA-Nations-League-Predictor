@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #090d22;
+  --color-navy-soft: #0f1530;
+  --color-surface: #121935;
+  --color-blue: #2f6fed;
+  --color-cyan: #35d0ff;
+  --color-gold: #d4af67;
+  --color-silver: #b8c1e0;
+  --color-bronze: #a9835a;
+  --color-danger: #e2607a;
+  --color-ink: #f5f7fc;
+  --color-muted: #8c97bf;
+  --color-muted-dim: #5b6690;
+  --color-panel: #151d47;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --animate-pulse-ring: pulse-ring 2.5s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.6;
+  }
+  70%,
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+/* Alinea todos los números de las tablas de datos en la misma anchura,
+   para que las columnas no "bailen" al cambiar de porcentaje/cifra. */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Textura de fondo sutil tipo campo/gráfico de retransmisión, muy tenue
+   para que nunca compita con el contenido. */
+.pitch-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+}
+
+/* Franja identificativa (firma visual) en el borde superior de las tarjetas,
+   evocando el "bug" gráfico de una retransmisión deportiva. */
+.stripe-card {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: var(--color-surface);
+}
+
+.stripe-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-blue), var(--color-cyan));
+  border-radius: 2px 2px 0 0;
+}
