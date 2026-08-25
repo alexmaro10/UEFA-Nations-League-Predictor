@@ -145,4 +145,4 @@ Contributions are welcome. Please:
 
 ## 👤 Author
 
-Your name - [@alexmaro10](https://github.com/alexmaro10)
+Alejandro Maldonado - [@alexmaro10](https://github.com/alexmaro10)
