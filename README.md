@@ -133,6 +133,16 @@ nations-league-ia/
 
 This project currently has no automated tests. Contributions adding coverage (especially around the simulation engine and standings/tiebreak logic) are welcome.
 
+## 🖼️ Images
+
+<p align="center"><img src="images/captura_1.png" style="width: 500px"></p>
+<p align="center"><img src="images/captura_2.png" style="width: 500px"></p>
+<p align="center"><img src="images/captura_3.png" style="width: 500px"></p>
+<p align="center"><img src="images/captura_4.png" style="width: 500px"></p>
+<p align="center"><img src="images/captura_5.png" style="width: 500px"></p>
+<p align="center"><img src="images/captura_6.png" style="width: 500px"></p>
+
+
 ## 🤝 Contributing
 
 Contributions are welcome. Please:
