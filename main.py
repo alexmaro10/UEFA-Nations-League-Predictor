@@ -48,8 +48,8 @@ app.add_middleware(
 
 app.include_router(router)
 
-N_SIMULATIONS = 5
-N_SAVED_SIMULATIONS = 5
+N_SIMULATIONS = 100.000
+N_SAVED_SIMULATIONS = 300
 
 def clean_previous_simulations():
 	simulations_dir = "data/simulations"
