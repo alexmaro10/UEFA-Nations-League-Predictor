@@ -1,0 +1,274 @@
+{
+  "simulations": [
+    {
+      "simulation_id": 2,
+      "positions": {
+        "1": "PAB",
+        "2": "ESP",
+        "3": "ITA",
+        "4": "GRE"
+      }
+    },
+    {
+      "simulation_id": 6,
+      "positions": {
+        "1": "PAB",
+        "2": "ING",
+        "3": "TUR",
+        "4": "FRA"
+      }
+    },
+    {
+      "simulation_id": 13,
+      "positions": {
+        "1": "BEL",
+        "2": "ING",
+        "3": "POR",
+        "4": "NOR"
+      }
+    },
+    {
+      "simulation_id": 18,
+      "positions": {
+        "1": "NOR",
+        "2": "ESP",
+        "3": "BEL",
+        "4": "PAB"
+      }
+    },
+    {
+      "simulation_id": 19,
+      "positions": {
+        "1": "POR",
+        "2": "NOR",
+        "3": "ALE",
+        "4": "BEL"
+      }
+    },
+    {
+      "simulation_id": 20,
+      "positions": {
+        "1": "ESP",
+        "2": "FRA",
+        "3": "POR",
+        "4": "ING"
+      }
+    },
+    {
+      "simulation_id": 21,
+      "positions": {
+        "1": "ALE",
+        "2": "ESP",
+        "3": "BEL",
+        "4": "SER"
+      }
+    },
+    {
+      "simulation_id": 22,
+      "positions": {
+        "1": "FRA",
+        "2": "ALE",
+        "3": "ESP",
+        "4": "BEL"
+      }
+    },
+    {
+      "simulation_id": 24,
+      "positions": {
+        "1": "POR",
+        "2": "FRA",
+        "3": "ESP",
+        "4": "PAB"
+      }
+    },
+    {
+      "simulation_id": 27,
+      "positions": {
+        "1": "PAB",
+        "2": "POR",
+        "3": "BEL",
+        "4": "ALE"
+      }
+    },
+    {
+      "simulation_id": 29,
+      "positions": {
+        "1": "POR",
+        "2": "ALE",
+        "3": "ESP",
+        "4": "TUR"
+      }
+    },
+    {
+      "simulation_id": 31,
+      "positions": {
+        "1": "ING",
+        "2": "ESP",
+        "3": "POR",
+        "4": "BEL"
+      }
+    },
+    {
+      "simulation_id": 34,
+      "positions": {
+        "1": "ING",
+        "2": "ALE",
+        "3": "GAL",
+        "4": "ESP"
+      }
+    },
+    {
+      "simulation_id": 36,
+      "positions": {
+        "1": "FRA",
+        "2": "ALE",
+        "3": "ESP",
+        "4": "PAB"
+      }
+    },
+    {
+      "simulation_id": 37,
+      "positions": {
+        "1": "ESP",
+        "2": "NOR",
+        "3": "GRE",
+        "4": "ALE"
+      }
+    },
+    {
+      "simulation_id": 41,
+      "positions": {
+        "1": "ING",
+        "2": "GRE",
+        "3": "PAB",
+        "4": "ESP"
+      }
+    },
+    {
+      "simulation_id": 44,
+      "positions": {
+        "1": "BEL",
+        "2": "DIN",
+        "3": "POR",
+        "4": "SER"
+      }
+    },
+    {
+      "simulation_id": 52,
+      "positions": {
+        "1": "PAB",
+        "2": "ALE",
+        "3": "ESP",
+        "4": "FRA"
+      }
+    },
+    {
+      "simulation_id": 58,
+      "positions": {
+        "1": "PAB",
+        "2": "ESP",
+        "3": "ING",
+        "4": "TUR"
+      }
+    },
+    {
+      "simulation_id": 59,
+      "positions": {
+        "1": "ALE",
+        "2": "ESP",
+        "3": "POR",
+        "4": "DIN"
+      }
+    },
+    {
+      "simulation_id": 63,
+      "positions": {
+        "1": "ALE",
+        "2": "PAB",
+        "3": "DIN",
+        "4": "NOR"
+      }
+    },
+    {
+      "simulation_id": 67,
+      "positions": {
+        "1": "ESP",
+        "2": "ALE",
+        "3": "ITA",
+        "4": "FRA"
+      }
+    },
+    {
+      "simulation_id": 69,
+      "positions": {
+        "1": "ESP",
+        "2": "POR",
+        "3": "SER",
+        "4": "PAB"
+      }
+    },
+    {
+      "simulation_id": 72,
+      "positions": {
+        "1": "POR",
+        "2": "REC",
+        "3": "ESP",
+        "4": "NOR"
+      }
+    },
+    {
+      "simulation_id": 74,
+      "positions": {
+        "1": "ING",
+        "2": "ESP",
+        "3": "BEL",
+        "4": "PAB"
+      }
+    },
+    {
+      "simulation_id": 75,
+      "positions": {
+        "1": "SER",
+        "2": "ESP",
+        "3": "POR",
+        "4": "CRO"
+      }
+    },
+    {
+      "simulation_id": 89,
+      "positions": {
+        "1": "ESP",
+        "2": "ALE",
+        "3": "SER",
+        "4": "POR"
+      }
+    },
+    {
+      "simulation_id": 90,
+      "positions": {
+        "1": "BEL",
+        "2": "FRA",
+        "3": "ESP",
+        "4": "ING"
+      }
+    },
+    {
+      "simulation_id": 92,
+      "positions": {
+        "1": "BEL",
+        "2": "ALE",
+        "3": "ESP",
+        "4": "FRA"
+      }
+    },
+    {
+      "simulation_id": 96,
+      "positions": {
+        "1": "POR",
+        "2": "FRA",
+        "3": "CRO",
+        "4": "ALE"
+      }
+    }
+  ]
+}

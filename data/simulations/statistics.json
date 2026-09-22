@@ -1,0 +1,2818 @@
+{
+  "league_A": [
+    {
+      "team_id": 1,
+      "team_name": "España",
+      "final_four": {
+        "1": 19,
+        "2": 14,
+        "3": 20,
+        "4": 9
+      },
+      "relegated": 4,
+      "quarterfinal": 22,
+      "group_position": {
+        "4": 1,
+        "3": 15,
+        "2": 29,
+        "1": 55
+      }
+    },
+    {
+      "team_id": 2,
+      "team_name": "Inglaterra",
+      "final_four": {
+        "1": 13,
+        "2": 11,
+        "3": 9,
+        "4": 7
+      },
+      "relegated": 12,
+      "quarterfinal": 30,
+      "group_position": {
+        "4": 9,
+        "3": 21,
+        "2": 41,
+        "1": 29
+      }
+    },
+    {
+      "team_id": 3,
+      "team_name": "Francia",
+      "final_four": {
+        "1": 13,
+        "2": 10,
+        "3": 12,
+        "4": 10
+      },
+      "relegated": 6,
+      "quarterfinal": 34,
+      "group_position": {
+        "4": 4,
+        "3": 17,
+        "2": 29,
+        "1": 50
+      }
+    },
+    {
+      "team_id": 4,
+      "team_name": "Portugal",
+      "final_four": {
+        "1": 15,
+        "2": 14,
+        "3": 11,
+        "4": 6
+      },
+      "relegated": 5,
+      "quarterfinal": 35,
+      "group_position": {
+        "4": 5,
+        "3": 14,
+        "2": 19,
+        "1": 62
+      }
+    },
+    {
+      "team_id": 5,
+      "team_name": "Paises Bajos",
+      "final_four": {
+        "1": 13,
+        "2": 11,
+        "3": 9,
+        "4": 12
+      },
+      "relegated": 7,
+      "quarterfinal": 31,
+      "group_position": {
+        "4": 4,
+        "3": 20,
+        "2": 36,
+        "1": 40
+      }
+    },
+    {
+      "team_id": 6,
+      "team_name": "Noruega",
+      "final_four": {
+        "1": 5,
+        "2": 10,
+        "3": 8,
+        "4": 8
+      },
+      "relegated": 18,
+      "quarterfinal": 38,
+      "group_position": {
+        "4": 12,
+        "3": 19,
+        "2": 44,
+        "1": 25
+      }
+    },
+    {
+      "team_id": 7,
+      "team_name": "Bélgica",
+      "final_four": {
+        "1": 7,
+        "2": 10,
+        "3": 8,
+        "4": 10
+      },
+      "relegated": 16,
+      "quarterfinal": 31,
+      "group_position": {
+        "4": 10,
+        "3": 24,
+        "2": 35,
+        "1": 31
+      }
+    },
+    {
+      "team_id": 8,
+      "team_name": "Suiza",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 9,
+      "team_name": "Alemania",
+      "final_four": {
+        "1": 11,
+        "2": 12,
+        "3": 6,
+        "4": 13
+      },
+      "relegated": 13,
+      "quarterfinal": 31,
+      "group_position": {
+        "4": 11,
+        "3": 16,
+        "2": 23,
+        "1": 50
+      }
+    },
+    {
+      "team_id": 10,
+      "team_name": "Croacia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 6
+      },
+      "relegated": 37,
+      "quarterfinal": 24,
+      "group_position": {
+        "4": 27,
+        "3": 39,
+        "2": 20,
+        "1": 14
+      }
+    },
+    {
+      "team_id": 11,
+      "team_name": "Dinamarca",
+      "final_four": {
+        "1": 0,
+        "2": 2,
+        "3": 3,
+        "4": 5
+      },
+      "relegated": 40,
+      "quarterfinal": 26,
+      "group_position": {
+        "4": 25,
+        "3": 39,
+        "2": 27,
+        "1": 9
+      }
+    },
+    {
+      "team_id": 12,
+      "team_name": "Italia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 5
+      },
+      "relegated": 51,
+      "quarterfinal": 22,
+      "group_position": {
+        "4": 39,
+        "3": 31,
+        "2": 17,
+        "1": 13
+      }
+    },
+    {
+      "team_id": 13,
+      "team_name": "Turquía",
+      "final_four": {
+        "1": 0,
+        "2": 2,
+        "3": 1,
+        "4": 4
+      },
+      "relegated": 61,
+      "quarterfinal": 18,
+      "group_position": {
+        "4": 47,
+        "3": 28,
+        "2": 19,
+        "1": 6
+      }
+    },
+    {
+      "team_id": 14,
+      "team_name": "Austria",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 15,
+      "team_name": "Ucrania",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 17,
+      "team_name": "Escocia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 18,
+      "team_name": "Grecia",
+      "final_four": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3
+      },
+      "relegated": 45,
+      "quarterfinal": 24,
+      "group_position": {
+        "4": 30,
+        "3": 38,
+        "2": 27,
+        "1": 5
+      }
+    },
+    {
+      "team_id": 19,
+      "team_name": "Serbia",
+      "final_four": {
+        "1": 1,
+        "2": 0,
+        "3": 2,
+        "4": 2
+      },
+      "relegated": 69,
+      "quarterfinal": 14,
+      "group_position": {
+        "4": 55,
+        "3": 26,
+        "2": 14,
+        "1": 5
+      }
+    },
+    {
+      "team_id": 20,
+      "team_name": "Suecia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 21,
+      "team_name": "Kosovo",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 22,
+      "team_name": "Hungría",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 23,
+      "team_name": "Polonia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 24,
+      "team_name": "Irlanda",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 25,
+      "team_name": "Gales",
+      "final_four": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0
+      },
+      "relegated": 73,
+      "quarterfinal": 11,
+      "group_position": {
+        "4": 58,
+        "3": 28,
+        "2": 10,
+        "1": 4
+      }
+    },
+    {
+      "team_id": 26,
+      "team_name": "Eslovenia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 27,
+      "team_name": "República Checa",
+      "final_four": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0
+      },
+      "relegated": 75,
+      "quarterfinal": 9,
+      "group_position": {
+        "4": 63,
+        "3": 25,
+        "2": 10,
+        "1": 2
+      }
+    },
+    {
+      "team_id": 28,
+      "team_name": "Eslovaquia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 29,
+      "team_name": "Georgia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 30,
+      "team_name": "Israel",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 31,
+      "team_name": "Rumanía",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 32,
+      "team_name": "Albania",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 33,
+      "team_name": "Irlanda del Norte",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 34,
+      "team_name": "Bosnia-Herzegovina",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 35,
+      "team_name": "Macedonia del Norte",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 36,
+      "team_name": "Islandia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 37,
+      "team_name": "Finlandia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 38,
+      "team_name": "Bielorrusia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 39,
+      "team_name": "Montenegro",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 40,
+      "team_name": "Bulgaria",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 41,
+      "team_name": "Luxemburgo",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 42,
+      "team_name": "Kazajistán",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 43,
+      "team_name": "Islas Feroe",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 44,
+      "team_name": "Armenia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 45,
+      "team_name": "Estonia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 46,
+      "team_name": "Azerbaiyán",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 47,
+      "team_name": "Chipre",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 48,
+      "team_name": "Letonia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 49,
+      "team_name": "Lituania",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 50,
+      "team_name": "Moldavia",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 51,
+      "team_name": "Malta",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 52,
+      "team_name": "Andorra",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 53,
+      "team_name": "Gibraltar",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 54,
+      "team_name": "Liechtenstein",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    },
+    {
+      "team_id": 55,
+      "team_name": "San Marino",
+      "final_four": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "relegated": 0,
+      "quarterfinal": 0,
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      }
+    }
+  ],
+  "league_B": [
+    {
+      "team_id": 1,
+      "team_name": "España",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 2,
+      "team_name": "Inglaterra",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 3,
+      "team_name": "Francia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 4,
+      "team_name": "Portugal",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 5,
+      "team_name": "Paises Bajos",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 6,
+      "team_name": "Noruega",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 7,
+      "team_name": "Bélgica",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 8,
+      "team_name": "Suiza",
+      "group_position": {
+        "4": 7,
+        "3": 11,
+        "2": 32,
+        "1": 50
+      },
+      "relegated": 11,
+      "promoted": 66
+    },
+    {
+      "team_id": 9,
+      "team_name": "Alemania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 10,
+      "team_name": "Croacia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 11,
+      "team_name": "Dinamarca",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 12,
+      "team_name": "Italia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 13,
+      "team_name": "Turquía",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 14,
+      "team_name": "Austria",
+      "group_position": {
+        "4": 6,
+        "3": 12,
+        "2": 25,
+        "1": 57
+      },
+      "relegated": 9,
+      "promoted": 72
+    },
+    {
+      "team_id": 15,
+      "team_name": "Ucrania",
+      "group_position": {
+        "4": 16,
+        "3": 23,
+        "2": 23,
+        "1": 38
+      },
+      "relegated": 24,
+      "promoted": 49
+    },
+    {
+      "team_id": 17,
+      "team_name": "Escocia",
+      "group_position": {
+        "4": 25,
+        "3": 19,
+        "2": 26,
+        "1": 30
+      },
+      "relegated": 30,
+      "promoted": 38
+    },
+    {
+      "team_id": 18,
+      "team_name": "Grecia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 19,
+      "team_name": "Serbia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 20,
+      "team_name": "Suecia",
+      "group_position": {
+        "4": 20,
+        "3": 24,
+        "2": 30,
+        "1": 26
+      },
+      "relegated": 25,
+      "promoted": 32
+    },
+    {
+      "team_id": 21,
+      "team_name": "Kosovo",
+      "group_position": {
+        "4": 26,
+        "3": 21,
+        "2": 33,
+        "1": 20
+      },
+      "relegated": 33,
+      "promoted": 28
+    },
+    {
+      "team_id": 22,
+      "team_name": "Hungría",
+      "group_position": {
+        "4": 26,
+        "3": 21,
+        "2": 29,
+        "1": 24
+      },
+      "relegated": 35,
+      "promoted": 31
+    },
+    {
+      "team_id": 23,
+      "team_name": "Polonia",
+      "group_position": {
+        "4": 28,
+        "3": 22,
+        "2": 26,
+        "1": 24
+      },
+      "relegated": 32,
+      "promoted": 31
+    },
+    {
+      "team_id": 24,
+      "team_name": "Irlanda",
+      "group_position": {
+        "4": 25,
+        "3": 40,
+        "2": 21,
+        "1": 14
+      },
+      "relegated": 43,
+      "promoted": 20
+    },
+    {
+      "team_id": 25,
+      "team_name": "Gales",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 26,
+      "team_name": "Eslovenia",
+      "group_position": {
+        "4": 23,
+        "3": 35,
+        "2": 27,
+        "1": 15
+      },
+      "relegated": 35,
+      "promoted": 23
+    },
+    {
+      "team_id": 27,
+      "team_name": "República Checa",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 28,
+      "team_name": "Eslovaquia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 29,
+      "team_name": "Georgia",
+      "group_position": {
+        "4": 13,
+        "3": 33,
+        "2": 31,
+        "1": 23
+      },
+      "relegated": 27,
+      "promoted": 34
+    },
+    {
+      "team_id": 30,
+      "team_name": "Israel",
+      "group_position": {
+        "4": 43,
+        "3": 27,
+        "2": 21,
+        "1": 9
+      },
+      "relegated": 51,
+      "promoted": 13
+    },
+    {
+      "team_id": 31,
+      "team_name": "Rumanía",
+      "group_position": {
+        "4": 13,
+        "3": 23,
+        "2": 27,
+        "1": 37
+      },
+      "relegated": 20,
+      "promoted": 48
+    },
+    {
+      "team_id": 32,
+      "team_name": "Albania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 33,
+      "team_name": "Irlanda del Norte",
+      "group_position": {
+        "4": 45,
+        "3": 23,
+        "2": 17,
+        "1": 15
+      },
+      "relegated": 58,
+      "promoted": 24
+    },
+    {
+      "team_id": 34,
+      "team_name": "Bosnia-Herzegovina",
+      "group_position": {
+        "4": 39,
+        "3": 31,
+        "2": 17,
+        "1": 13
+      },
+      "relegated": 48,
+      "promoted": 16
+    },
+    {
+      "team_id": 35,
+      "team_name": "Macedonia del Norte",
+      "group_position": {
+        "4": 45,
+        "3": 35,
+        "2": 15,
+        "1": 5
+      },
+      "relegated": 64,
+      "promoted": 7
+    },
+    {
+      "team_id": 36,
+      "team_name": "Islandia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 37,
+      "team_name": "Finlandia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 38,
+      "team_name": "Bielorrusia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 39,
+      "team_name": "Montenegro",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 40,
+      "team_name": "Bulgaria",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 41,
+      "team_name": "Luxemburgo",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 42,
+      "team_name": "Kazajistán",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 43,
+      "team_name": "Islas Feroe",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 44,
+      "team_name": "Armenia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 45,
+      "team_name": "Estonia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 46,
+      "team_name": "Azerbaiyán",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 47,
+      "team_name": "Chipre",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 48,
+      "team_name": "Letonia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 49,
+      "team_name": "Lituania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 50,
+      "team_name": "Moldavia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 51,
+      "team_name": "Malta",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 52,
+      "team_name": "Andorra",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 53,
+      "team_name": "Gibraltar",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 54,
+      "team_name": "Liechtenstein",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 55,
+      "team_name": "San Marino",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    }
+  ],
+  "league_C": [
+    {
+      "team_id": 1,
+      "team_name": "España",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 2,
+      "team_name": "Inglaterra",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 3,
+      "team_name": "Francia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 4,
+      "team_name": "Portugal",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 5,
+      "team_name": "Paises Bajos",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 6,
+      "team_name": "Noruega",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 7,
+      "team_name": "Bélgica",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 8,
+      "team_name": "Suiza",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 9,
+      "team_name": "Alemania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 10,
+      "team_name": "Croacia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 11,
+      "team_name": "Dinamarca",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 12,
+      "team_name": "Italia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 13,
+      "team_name": "Turquía",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 14,
+      "team_name": "Austria",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 15,
+      "team_name": "Ucrania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 17,
+      "team_name": "Escocia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 18,
+      "team_name": "Grecia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 19,
+      "team_name": "Serbia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 20,
+      "team_name": "Suecia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 21,
+      "team_name": "Kosovo",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 22,
+      "team_name": "Hungría",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 23,
+      "team_name": "Polonia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 24,
+      "team_name": "Irlanda",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 25,
+      "team_name": "Gales",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 26,
+      "team_name": "Eslovenia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 27,
+      "team_name": "República Checa",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 28,
+      "team_name": "Eslovaquia",
+      "group_position": {
+        "4": 10,
+        "3": 11,
+        "2": 27,
+        "1": 52
+      },
+      "relegated": 4,
+      "promoted": 68
+    },
+    {
+      "team_id": 29,
+      "team_name": "Georgia",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 30,
+      "team_name": "Israel",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 31,
+      "team_name": "Rumanía",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 32,
+      "team_name": "Albania",
+      "group_position": {
+        "4": 4,
+        "3": 24,
+        "2": 34,
+        "1": 38
+      },
+      "relegated": 2,
+      "promoted": 56
+    },
+    {
+      "team_id": 33,
+      "team_name": "Irlanda del Norte",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 34,
+      "team_name": "Bosnia-Herzegovina",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 35,
+      "team_name": "Macedonia del Norte",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 36,
+      "team_name": "Islandia",
+      "group_position": {
+        "4": 9,
+        "3": 9,
+        "2": 31,
+        "1": 51
+      },
+      "relegated": 4,
+      "promoted": 64
+    },
+    {
+      "team_id": 37,
+      "team_name": "Finlandia",
+      "group_position": {
+        "4": 2,
+        "3": 27,
+        "2": 36,
+        "1": 35
+      },
+      "relegated": 0,
+      "promoted": 51
+    },
+    {
+      "team_id": 38,
+      "team_name": "Bielorrusia",
+      "group_position": {
+        "4": 6,
+        "3": 38,
+        "2": 29,
+        "1": 27
+      },
+      "relegated": 5,
+      "promoted": 40
+    },
+    {
+      "team_id": 39,
+      "team_name": "Montenegro",
+      "group_position": {
+        "4": 20,
+        "3": 19,
+        "2": 30,
+        "1": 31
+      },
+      "relegated": 16,
+      "promoted": 40
+    },
+    {
+      "team_id": 40,
+      "team_name": "Bulgaria",
+      "group_position": {
+        "4": 29,
+        "3": 24,
+        "2": 24,
+        "1": 23
+      },
+      "relegated": 18,
+      "promoted": 30
+    },
+    {
+      "team_id": 41,
+      "team_name": "Luxemburgo",
+      "group_position": {
+        "4": 25,
+        "3": 38,
+        "2": 22,
+        "1": 15
+      },
+      "relegated": 16,
+      "promoted": 19
+    },
+    {
+      "team_id": 42,
+      "team_name": "Kazajistán",
+      "group_position": {
+        "4": 29,
+        "3": 31,
+        "2": 20,
+        "1": 20
+      },
+      "relegated": 18,
+      "promoted": 28
+    },
+    {
+      "team_id": 43,
+      "team_name": "Islas Feroe",
+      "group_position": {
+        "4": 15,
+        "3": 24,
+        "2": 37,
+        "1": 24
+      },
+      "relegated": 10,
+      "promoted": 37
+    },
+    {
+      "team_id": 44,
+      "team_name": "Armenia",
+      "group_position": {
+        "4": 34,
+        "3": 23,
+        "2": 18,
+        "1": 25
+      },
+      "relegated": 24,
+      "promoted": 27
+    },
+    {
+      "team_id": 45,
+      "team_name": "Estonia",
+      "group_position": {
+        "4": 37,
+        "3": 29,
+        "2": 23,
+        "1": 11
+      },
+      "relegated": 28,
+      "promoted": 17
+    },
+    {
+      "team_id": 46,
+      "team_name": "Azerbaiyán",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 47,
+      "team_name": "Chipre",
+      "group_position": {
+        "4": 18,
+        "3": 25,
+        "2": 28,
+        "1": 29
+      },
+      "relegated": 14,
+      "promoted": 38
+    },
+    {
+      "team_id": 48,
+      "team_name": "Letonia",
+      "group_position": {
+        "4": 28,
+        "3": 33,
+        "2": 24,
+        "1": 15
+      },
+      "relegated": 17,
+      "promoted": 20
+    },
+    {
+      "team_id": 49,
+      "team_name": "Lituania",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 50,
+      "team_name": "Moldavia",
+      "group_position": {
+        "4": 46,
+        "3": 34,
+        "2": 16,
+        "1": 4
+      },
+      "relegated": 35,
+      "promoted": 9
+    },
+    {
+      "team_id": 51,
+      "team_name": "Malta",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 52,
+      "team_name": "Andorra",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 53,
+      "team_name": "Gibraltar",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 54,
+      "team_name": "Liechtenstein",
+      "group_position": {
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "relegated": 0,
+      "promoted": 0
+    },
+    {
+      "team_id": 55,
+      "team_name": "San Marino",
+      "group_position": {
+        "4": 88,
+        "3": 11,
+        "2": 1,
+        "1": 0
+      },
+      "relegated": 85,
+      "promoted": 1
+    }
+  ],
+  "league_D": [
+    {
+      "team_id": 1,
+      "team_name": "España",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 2,
+      "team_name": "Inglaterra",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 3,
+      "team_name": "Francia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 4,
+      "team_name": "Portugal",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 5,
+      "team_name": "Paises Bajos",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 6,
+      "team_name": "Noruega",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 7,
+      "team_name": "Bélgica",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 8,
+      "team_name": "Suiza",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 9,
+      "team_name": "Alemania",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 10,
+      "team_name": "Croacia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 11,
+      "team_name": "Dinamarca",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 12,
+      "team_name": "Italia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 13,
+      "team_name": "Turquía",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 14,
+      "team_name": "Austria",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 15,
+      "team_name": "Ucrania",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 17,
+      "team_name": "Escocia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 18,
+      "team_name": "Grecia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 19,
+      "team_name": "Serbia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 20,
+      "team_name": "Suecia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 21,
+      "team_name": "Kosovo",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 22,
+      "team_name": "Hungría",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 23,
+      "team_name": "Polonia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 24,
+      "team_name": "Irlanda",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 25,
+      "team_name": "Gales",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 26,
+      "team_name": "Eslovenia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 27,
+      "team_name": "República Checa",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 28,
+      "team_name": "Eslovaquia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 29,
+      "team_name": "Georgia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 30,
+      "team_name": "Israel",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 31,
+      "team_name": "Rumanía",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 32,
+      "team_name": "Albania",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 33,
+      "team_name": "Irlanda del Norte",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 34,
+      "team_name": "Bosnia-Herzegovina",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 35,
+      "team_name": "Macedonia del Norte",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 36,
+      "team_name": "Islandia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 37,
+      "team_name": "Finlandia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 38,
+      "team_name": "Bielorrusia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 39,
+      "team_name": "Montenegro",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 40,
+      "team_name": "Bulgaria",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 41,
+      "team_name": "Luxemburgo",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 42,
+      "team_name": "Kazajistán",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 43,
+      "team_name": "Islas Feroe",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 44,
+      "team_name": "Armenia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 45,
+      "team_name": "Estonia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 46,
+      "team_name": "Azerbaiyán",
+      "group_position": {
+        "3": 13,
+        "2": 37,
+        "1": 50
+      },
+      "promoted": 73
+    },
+    {
+      "team_id": 47,
+      "team_name": "Chipre",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 48,
+      "team_name": "Letonia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 49,
+      "team_name": "Lituania",
+      "group_position": {
+        "3": 11,
+        "2": 43,
+        "1": 46
+      },
+      "promoted": 68
+    },
+    {
+      "team_id": 50,
+      "team_name": "Moldavia",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    },
+    {
+      "team_id": 51,
+      "team_name": "Malta",
+      "group_position": {
+        "3": 22,
+        "2": 26,
+        "1": 52
+      },
+      "promoted": 68
+    },
+    {
+      "team_id": 52,
+      "team_name": "Andorra",
+      "group_position": {
+        "3": 22,
+        "2": 45,
+        "1": 33
+      },
+      "promoted": 53
+    },
+    {
+      "team_id": 53,
+      "team_name": "Gibraltar",
+      "group_position": {
+        "3": 56,
+        "2": 29,
+        "1": 15
+      },
+      "promoted": 25
+    },
+    {
+      "team_id": 54,
+      "team_name": "Liechtenstein",
+      "group_position": {
+        "3": 76,
+        "2": 20,
+        "1": 4
+      },
+      "promoted": 9
+    },
+    {
+      "team_id": 55,
+      "team_name": "San Marino",
+      "group_position": {
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "promoted": 0
+    }
+  ]
+}
