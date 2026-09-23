@@ -136,11 +136,13 @@ This project currently has no automated tests. Contributions adding coverage (es
 ## 🖼️ Images
 
 <p align="center"><img src="images/captura_1.png" style="width: 500px">
-<p align="center"><img src="images/captura_2.png" style="width: 500px">
+<img src="images/captura_2.png" style="width: 500px"></p>
+
 <p align="center"><img src="images/captura_3.png" style="width: 500px">
-<p align="center"><img src="images/captura_4.png" style="width: 500px">
+<img src="images/captura_4.png" style="width: 500px"></p>
+
 <p align="center"><img src="images/captura_5.png" style="width: 500px">
-<p align="center"><img src="images/captura_6.png" style="width: 500px">
+<img src="images/captura_6.png" style="width: 500px"></p>
 
 
 ## 🤝 Contributing
